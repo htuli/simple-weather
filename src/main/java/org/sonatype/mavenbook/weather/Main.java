@@ -4,8 +4,13 @@ import org.apache.log4j.PropertyConfigurator;
 public class Main {
 public static void main(String[] args) throws Exception {
 System.out.println("Hello World");
+
 System.out.println("On Master Branch");
 System.out.println("Hotfix Branch");
+
+System.out.println("File in testing branch");
+System.out.println("second commit in testing branch");
+System.out.println("merged");
 // Configure Log4J
 PropertyConfigurator
 .configure(Main.class.getClassLoader()
