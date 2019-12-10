@@ -5,6 +5,7 @@ public class Main {
 public static void main(String[] args) throws Exception {
 System.out.println("Hello World");
 System.out.println("On Master Branch");
+System.out.println("Hotfix Branch");
 // Configure Log4J
 PropertyConfigurator
 .configure(Main.class.getClassLoader()
