@@ -8,7 +8,9 @@ private String temp;
 private String chill;
 private String humidity;
 public Weather() {}
-public String getCity() { return city; }
+public String getCity() { 
+  System.out.println("Returning City");
+  return city; }
 public void setCity(String city) {
 this.city = city;
 }
