@@ -3,6 +3,7 @@ import java.io.InputStream;
 import org.apache.log4j.PropertyConfigurator;
 public class Main {
 public static void main(String[] args) throws Exception {
+System.out.println("Hello World");
 // Configure Log4J
 PropertyConfigurator
 .configure(Main.class.getClassLoader()
