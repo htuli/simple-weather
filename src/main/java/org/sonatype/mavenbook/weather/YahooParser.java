@@ -10,7 +10,7 @@ public class YahooParser {
 private static Logger log = Logger.getLogger(YahooParser.class);
 public Weather parse(InputStream inputStream) throws Exception {
 Weather weather = new Weather();
-log.info( "Creating XML Reader" );
+log.info( "Creating XML Reader updated" );
 SAXReader xmlReader = createXmlReader();
 Document doc = xmlReader.read( inputStream );
 log.info( "Parsing XML Response" );
